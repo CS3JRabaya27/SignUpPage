@@ -1,0 +1,80 @@
+<DOCTYPE html>
+<html>
+    <head>
+	    <title> Sign-up </title>
+	</head>
+	<body>
+	    <h1> Sign-up to make an account </h1>
+		<h6> (your personal information will remain confidential and will not be released public) </h6>
+		</br>
+		
+		<form>
+		    <h4> Name: </h4>
+			<input type = 'text' id= = 'name' placeholder = 'Enter full name'></input>
+		</form>
+		</br>
+		<form>
+		    <h4> Preferred Username: </h4>
+			<input type = 'text' id = 'prefName'></input>
+		</form>
+		<form>
+		    <h4> Password: </h4>
+			<input type = 'password' id = 'password' placeholder = 'Password'> </input> </br>
+		    <input type = 'password' id = 'confPass' placeholder = 'Confirm Password'> </input>
+	    </form>
+		<form>
+		    <h4> Email: </h4>
+			<input type = 'email' id = 'email' pattern = '.+@example\.com' size = '30' required /> </input>
+	    </form>
+		<form>
+		    <h4> Address: </h4>
+			<input type = 'address' id = 'region' placeholder = 'Region'></input> </br>
+            <input type = 'address' id = 'province' placeholder = 'Province'> </input> </br>
+            <input type = 'address' id = 'city' placeholder = 'City'></input> </br>
+            <input type = 'address' id = 'houseNum' placeholder="House Number"></input>
+        </form>
+		<form>
+		    <h4> Tell us more about yourself: (hobbies, interests, etc.) </h4>
+			<input type = 'text'></input>
+		</form>
+		
+		<button> Submit Form </button> </br>
+		<button> Reset Form </button>
+		
+	</body>
+	<style>
+	h4 {
+	    font-family: Times New Roman;
+		font-style: bold;
+	}h1 {
+        font-family: Times New Romsn;
+		font-style: bold;
+	}h6 {
+        font-family: Arial;
+		font-style: italic;
+	}body {
+        background-color:#AED1E0;
+		text-align: center;
+	}form {
+        margin-bottom: 20px;
+    }input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="address"] {
+        width: 55%;
+        padding: 8px;
+        margin: 5px 0;
+        border: 2px solid #aaa;
+        border-color: #ffffff;
+        border-radius: 6px;
+        box-sizing: border-box;
+    }button{
+        background-color: #ffffff ;
+        color: black;
+        padding: 10px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+}
+	</style>
+</html>
